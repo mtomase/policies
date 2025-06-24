@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/23673f24-2594-43e9-9983-60a0be21bd76.html",
+  "timestamp": "2025-06-24T12:38:45.388854",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Network Managers (microsoft.network/networkmanagers) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": true,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Network Managers",
+    "filename_generated": "Network Managers - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

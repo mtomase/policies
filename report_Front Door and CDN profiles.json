@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/e9c56c41-d453-4a80-af93-2331afeb3d82.html",
+  "timestamp": "2025-06-24T12:38:37.362517",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Front Door and CDN profiles (microsoft.network/frontdoors) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": true,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Front Door and CDN profiles",
+    "filename_generated": "Front Door and CDN profiles - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

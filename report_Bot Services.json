@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/415eaa04-e9db-476a-ba43-092d70ebe1e7.html",
+  "timestamp": "2025-06-24T12:38:32.496219",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Bot Services (microsoft.botservice/botservices) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": true,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Bot Services",
+    "filename_generated": "Bot Services - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

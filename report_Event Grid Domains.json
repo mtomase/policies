@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/b90ec596-faa6-4c61-9515-34085703e260.html",
+  "timestamp": "2025-06-24T12:38:35.766770",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Event Grid Domains (microsoft.eventgrid/domains) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": true,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Event Grid Domains",
+    "filename_generated": "Event Grid Domains - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

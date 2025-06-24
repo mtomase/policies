@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/867c08d5-bc47-404d-9a1b-0aec7a8d34eb.html",
+  "timestamp": "2025-06-24T12:38:49.993378",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Workspaces (microsoft.desktopvirtualization/workspaces) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": true,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Workspaces",
+    "filename_generated": "Workspaces - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

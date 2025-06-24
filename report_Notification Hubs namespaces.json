@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/65f86cc7-f01e-4c42-967c-e5014709f2c5.html",
+  "timestamp": "2025-06-24T12:38:50.383572",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Notification Hubs namespaces (microsoft.notificationhubs/namespaces) to Log Analytics",
+    "policy_type": "Unknown",
+    "had_category_group": true,
+    "original_parameters": [
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "effect",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Notification Hubs namespaces",
+    "filename_generated": "Notification Hubs namespaces - custom.json",
+    "final_parameters": [
+      "diagnosticSettingName",
+      "categoryGroup",
+      "resourceLocationList",
+      "logAnalytics",
+      "effect",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

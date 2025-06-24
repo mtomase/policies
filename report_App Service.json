@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/c0d8e23a-47be-4032-961f-8b0ff3957061.html",
+  "timestamp": "2025-06-24T12:38:51.474532",
+  "original_policy": {
+    "display_name": "Enable logging by category group for App Service (microsoft.web/sites) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": false,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "App Service",
+    "filename_generated": "App Service - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

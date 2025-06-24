@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/a4490248-cb97-4504-b7fb-f906afdb7437.html",
+  "timestamp": "2025-06-24T12:38:50.876578",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Firewall (microsoft.network/azurefirewalls) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": false,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Firewall",
+    "filename_generated": "Firewall - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

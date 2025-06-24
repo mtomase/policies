@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/6f95136f-6544-4722-a354-25a18ddb18a7.html",
+  "timestamp": "2025-06-24T12:38:50.542927",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Host pool (microsoft.desktopvirtualization/hostpools) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": false,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Host pool",
+    "filename_generated": "Host pool - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

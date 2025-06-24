@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/3aa571d2-2e4f-4e92-8a30-4312860efbe1.html",
+  "timestamp": "2025-06-24T12:38:51.205135",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Application group (microsoft.desktopvirtualization/applicationgroups) to Log Analytics",
+    "policy_type": "BuiltIn",
+    "had_category_group": false,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Application group",
+    "filename_generated": "Application group - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.azadvertizer.net/azpolicyadvertizer/244bcb20-b194-41f3-afcc-63aef382b64c.html",
+  "timestamp": "2025-06-24T12:38:51.355014",
+  "original_policy": {
+    "display_name": "Enable logging by category group for Application Insights (Microsoft.Insights/components) to Log Analytics (Virtual Enclaves)",
+    "policy_type": "BuiltIn",
+    "had_category_group": false,
+    "original_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "modified_policy": {
+    "service_name_extracted": "Application Insights",
+    "filename_generated": "Application Insights - custom.json",
+    "final_parameters": [
+      "effect",
+      "diagnosticSettingName",
+      "resourceLocationList",
+      "logAnalytics",
+      "categoryGroup",
+      "logAnalyticsDestinationType",
+      "collectMetrics"
+    ]
+  },
+  "processing_status": "success"
+}
